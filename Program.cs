@@ -41,6 +41,7 @@ namespace lab4._1DiceRolling
 
             } while (cont);
 
+            Console.WriteLine("Thank you for playing!");
 
         }
 

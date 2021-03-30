@@ -87,16 +87,16 @@ namespace lab4._1DiceRolling
             int is1 = 0;
             if (sum == 2 || sum == 3 || sum == 12)       // for Craps!
             {
-                Console.Write($"Craps!\n");
+                Console.Write($"Craps! Where's the toilet?!\n");
             }
             else if (sum == 7 || sum == 11)                 //for Win!
             {
-                Console.Write($"Win!\n");
+                Console.Write($"Win! Get your cup ready for nickels!\n");
             }
 
             if (rolls.Contains(1) && rolls.Contains(2))       //for Ace Deuce
             {
-                Console.Write($"Ace Deuce\n");
+                Console.Write($"Ace Deuce as in Ace \"Deuce\" Ventura.\n");
             }
 
             for (int i = 0; i < rolls.Count; i++)               // to count if there are 2 or more 6's or 1's
@@ -112,11 +112,11 @@ namespace lab4._1DiceRolling
             }
             if(is6 > 1)                                  //boxcar
             {
-                Console.Write($"Boxcars\n");
+                Console.Write($"Boxcars. As in the Children [books], Racer [music], or just train cars?\n");
             }
             if (is1 > 1)                                // snake eyes
             {
-                Console.Write($"Snake Eyes\n");
+                Console.Write($"Snake Eyes. Well, I'm pretty sure Snake had one eye. [Plisskin]\n");
             }
         }
         static void PrintIt()                          //to print the rolls
